@@ -1,0 +1,169 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  /* box-sizing: border-box;
+  border: #ffffff 20px solid; */
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica'
+}
+h1#page-header {
+  /* padding: 10px 30px;
+
+  border: none;
+  font-size: 5em;
+  text-transform: uppercase;
+	text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold; */
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+	text-align: center;
+	border-radius: 5px;
+}
+
+h1#page-header:after {
+  /* padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 5em;
+  text-transform: uppercase;
+
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold; */
+	content: "SHINee";
+	position: absolute; left: 11px; top: 5px;
+	color: rgba(255,0,0,0.3);
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+
+div#pictures {
+  /* height: 100%; */
+	min-height: 80vh;
+	width: 100vw;
+	background: url('../images/image-1.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#lyrics {
+  /* height: 100%; */
+	min-height: 80vh;
+	width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 26px;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+p {
+  width: 40%;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 1em;
+}
+
+/* p {
+  position: fixed;
+  bottom: 10px;
+  color: #ffffff;
+} */
+
+/* body {
+	color: rgb(65,75,86);
+  font-family: arial;
+  margin: 0;
+}
+
+div {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 2.5em;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 130px;
+}
+
+
+
+a {
+  color: rgb(0,0,0);
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li#lower {
+  margin-top: 7%;
+}
+
+li#lowest {
+  margin-top: 14%;
+}
+
+div.contrast {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+/* Getting snazzy... */
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+} */
